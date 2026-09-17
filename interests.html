@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Interests</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -146,6 +147,41 @@
 
         </section>
 
+        <section>
+            <h2>Gaming Preferences</h2>
+
+            <form>
+
+                <p>
+                    <label for="favorite">Favorite Game:</label>
+                    <input type="text" id="favorite" name="favorite">
+                </p>
+
+                <p>
+                    <label for="platform">Platform:</label>
+                    <select id="platform" name="platform">
+                        <option value="pc">PC</option>
+                        <option value="console">Console</option>
+                        <option value="mobile">Mobile</option>
+                    </select>
+                </p>
+
+                <p>
+                    Game Type:
+                    <input type="radio" id="story" name="type" value="story">
+                    <label for="story">Story</label>
+
+                    <input type="radio" id="multiplayer" name="type" value="multiplayer">
+                    <label for="multiplayer">Multiplayer</label>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </p>
+
+            </form>
+        </section>
 
         <aside>
 
